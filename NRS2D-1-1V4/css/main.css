@@ -1,0 +1,220 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Rubik', sans-serif;
+	letter-spacing: 0.03rem;
+}
+
+p {
+	font-family: 'Lora', serif;
+}
+
+p+ul {
+	font-family: 'Lora', serif;
+	line-height: 2.1;
+	list-style: none;
+	list-style-type: none;
+}
+
+.preheader_pic {
+	height: 2.5rem;
+	width: auto;
+	margin-right: 0.5rem;
+}
+
+.preheader {
+	text-align: center;
+	background-color: rgba(5, 19, 41, 0.5);
+}
+
+.logo {
+	min-height: 9rem;
+	width: auto;
+	background-image: url(/img/logo.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 1.5rem;
+}
+
+.text_top {
+	border-bottom: 4px #333333;
+	border-color: #000000;
+	margin-top: 1.5rem;
+}
+
+.btn_container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+
+.main-menu li {
+	display: inline-block;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	margin-bottom: 0;
+}
+
+ul {
+	margin-bottom: 1.5rem;
+}
+
+.main-menu a {
+	list-style: none;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-bottom: 1.6rem;
+	padding-top: 1.6rem;
+	background-color: rgba(5, 19, 41, 0.5);
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+
+.main-menu a:hover {
+	background-color: #ffffff;
+	color: #333333;
+	border-bottom: 3px solid #232323;
+	-webkit-transition: 0.8s;
+	transition: 0.8s;
+}
+
+.main-menu {
+	text-align: center;
+}
+
+.m_bgc {
+	background-color: rgba(5, 19, 41, 0.8);
+}
+
+.main_big_pic {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	min-height: 38rem;
+	min-width: 38rem;
+	background-image: url(/img/0001.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	border-color: linear-gradient(90deg, rgba(102, 153, 204, 1) 0%, rgba(102, 150, 204, 1) 19%, rgba(102, 149, 204, 1) 22%, rgba(102, 146, 204, 1) 46%, rgba(102, 144, 204, 1) 51%, rgba(102, 141, 204, 1) 61%, rgba(102, 136, 204, 1) 66%, rgba(102, 133, 204, 1) 80%, rgba(102, 131, 204, 1) 91%, rgba(102, 128, 204, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6699CC', endColorstr='#6680CC', GradientType=1);
+}
+
+.preheader_link {
+	color: #ffffff;
+}
+
+.title_desk {
+	background-image: url(/img/bgc_image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+}
+
+.bgc_opacity {
+	background-color: rgba(0, 0, 0, 0.26);
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.service_pic {
+	background-image: url(/img/0001.jpg);
+	height: 10rem;
+	width: 10rem;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 4rem;
+	margin-top: 4rem;
+}
+
+.formBtn_top {
+	margin-top: 3.5rem;
+	border: 0;
+	cursor: pointer;
+	background-color: #6680cc;
+	color: #FBFCFB;
+	font-family: 'Rubik', sans-serif;
+	width: 33%;
+	padding: 15px 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .0875em;
+	font-weight: 500;
+	border-radius: 4px;
+	outline: 0;
+	-webkit-box-shadow: 0 0 5px rgba(5, 19, 41, 0.5);
+	box-shadow: 0 0 5px rgba(5, 19, 41, 0.5);
+	-webkit-transition: background-color 300ms cubic-bezier(0.215, 0.61, 0.355, 1), color 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+	transition: background-color 300ms cubic-bezier(0.215, 0.61, 0.355, 1), color 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.formBtn_top:hover {
+	color: #FBFCFB;
+	background-color: #7a97ed;
+	-webkit-box-shadow: 0 0 5px rgba(5, 19, 41, 0.5);
+	box-shadow: 0 0 9px rgba(52, 96, 167, 0.66);
+	-webkit-transition: background-color 300ms cubic-bezier(0.215, 0.61, 0.355, 1), color 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+	transition: background-color 300ms cubic-bezier(0.215, 0.61, 0.355, 1), color 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.formBtn_top:hover .download_icon {
+	height: 2.04rem;
+	transition: 2s;
+}
+
+.central_text {
+	text-align: center;
+}
+
+.formBtn_midlle {
+	margin-top: 3.5rem;
+	border: 0;
+	cursor: pointer;
+	background-color: #D9584E;
+	color: #FBFCFB;
+	width: 50%;
+	padding: 15px 0;
+	font-size: 12px;
+	border-radius: 4px;
+	outline: 0;
+	-webkit-box-shadow: 0 0 5px rgba(5, 19, 41, 0.5);
+	box-shadow: 0 0 5px rgba(5, 19, 41, 0.5);
+	-webkit-transition: background-color 300ms cubic-bezier(0.215, 0.61, 0.355, 1), color 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.text_top span {
+	font-family: 'Rubik', sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 1.2rem;
+}
+
+hr {
+	margin: 1rem;
+}
+
+ul+p {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+}
+
+.checkbox_pic {
+	height: 1.8rem;
+	width: auto;
+	margin-right: 0.5rem;
+}
+
+.download_icon {
+	height: 2rem;
+	width: auto;
+	margin-right: 1.5rem;
+}
